@@ -16,6 +16,8 @@
 		51E52E0728CB197700DD0759 /* ScrollableMyProfileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E52E0628CB197700DD0759 /* ScrollableMyProfileTests.swift */; };
 		51E52E1128CB197700DD0759 /* ScrollableMyProfileUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E52E1028CB197700DD0759 /* ScrollableMyProfileUITests.swift */; };
 		51E52E1328CB197700DD0759 /* ScrollableMyProfileUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E52E1228CB197700DD0759 /* ScrollableMyProfileUITestsLaunchTests.swift */; };
+		51E52E2128CB1C4E00DD0759 /* ListCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E52E2028CB1C4E00DD0759 /* ListCollectionViewCell.swift */; };
+		51E52E2328CB20F200DD0759 /* HeaderReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E52E2228CB20F200DD0759 /* HeaderReusableView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		51E52E0C28CB197700DD0759 /* ScrollableMyProfileUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrollableMyProfileUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		51E52E1028CB197700DD0759 /* ScrollableMyProfileUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollableMyProfileUITests.swift; sourceTree = "<group>"; };
 		51E52E1228CB197700DD0759 /* ScrollableMyProfileUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollableMyProfileUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		51E52E2028CB1C4E00DD0759 /* ListCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCollectionViewCell.swift; sourceTree = "<group>"; };
+		51E52E2228CB20F200DD0759 /* HeaderReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderReusableView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +103,10 @@
 		51E52DEE28CB197200DD0759 /* ScrollableMyProfile */ = {
 			isa = PBXGroup;
 			children = (
-				51E52DEF28CB197200DD0759 /* AppDelegate.swift */,
-				51E52DF128CB197200DD0759 /* SceneDelegate.swift */,
+				51E52E1F28CB1BD800DD0759 /* Files */,
 				51E52DF328CB197200DD0759 /* ViewController.swift */,
-				51E52DF528CB197200DD0759 /* Main.storyboard */,
-				51E52DF828CB197700DD0759 /* Assets.xcassets */,
-				51E52DFA28CB197700DD0759 /* LaunchScreen.storyboard */,
-				51E52DFD28CB197700DD0759 /* Info.plist */,
+				51E52E2028CB1C4E00DD0759 /* ListCollectionViewCell.swift */,
+				51E52E2228CB20F200DD0759 /* HeaderReusableView.swift */,
 			);
 			path = ScrollableMyProfile;
 			sourceTree = "<group>";
@@ -125,6 +126,19 @@
 				51E52E1228CB197700DD0759 /* ScrollableMyProfileUITestsLaunchTests.swift */,
 			);
 			path = ScrollableMyProfileUITests;
+			sourceTree = "<group>";
+		};
+		51E52E1F28CB1BD800DD0759 /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				51E52DEF28CB197200DD0759 /* AppDelegate.swift */,
+				51E52DF128CB197200DD0759 /* SceneDelegate.swift */,
+				51E52DF528CB197200DD0759 /* Main.storyboard */,
+				51E52DF828CB197700DD0759 /* Assets.xcassets */,
+				51E52DFA28CB197700DD0759 /* LaunchScreen.storyboard */,
+				51E52DFD28CB197700DD0759 /* Info.plist */,
+			);
+			name = Files;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,6 +274,8 @@
 			files = (
 				51E52DF428CB197200DD0759 /* ViewController.swift in Sources */,
 				51E52DF028CB197200DD0759 /* AppDelegate.swift in Sources */,
+				51E52E2328CB20F200DD0759 /* HeaderReusableView.swift in Sources */,
+				51E52E2128CB1C4E00DD0759 /* ListCollectionViewCell.swift in Sources */,
 				51E52DF228CB197200DD0759 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
